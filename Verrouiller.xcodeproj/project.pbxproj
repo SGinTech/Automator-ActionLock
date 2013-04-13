@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E44CC171171A00AF005DE248 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44CC170171A00AF005DE248 /* Automator.framework */; };
+		E44CC173171A00AF005DE248 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E44CC172171A00AF005DE248 /* Cocoa.framework */; };
+		E44CC17D171A00AF005DE248 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E44CC17B171A00AF005DE248 /* InfoPlist.strings */; };
+		E44CC17F171A00AF005DE248 /* main.command in Resources */ = {isa = PBXBuildFile; fileRef = E44CC17E171A00AF005DE248 /* main.command */; };
+		E44CC182171A00AF005DE248 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = E44CC180171A00AF005DE248 /* main.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E44CC16D171A00AF005DE248 /* Verrouiller.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Verrouiller.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44CC170171A00AF005DE248 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		E44CC172171A00AF005DE248 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E44CC175171A00AF005DE248 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E44CC176171A00AF005DE248 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E44CC177171A00AF005DE248 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E44CC17A171A00AF005DE248 /* Verrouiller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Verrouiller-Info.plist"; sourceTree = "<group>"; };
+		E44CC17C171A00AF005DE248 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E44CC17E171A00AF005DE248 /* main.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.command; sourceTree = "<group>"; };
+		E44CC181171A00AF005DE248 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44CC169171A00AF005DE248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44CC171171A00AF005DE248 /* Automator.framework in Frameworks */,
+				E44CC173171A00AF005DE248 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E44CC163171A00AF005DE248 = {
+			isa = PBXGroup;
+			children = (
+				E44CC178171A00AF005DE248 /* Verrouiller */,
+				E44CC16F171A00AF005DE248 /* Frameworks */,
+				E44CC16E171A00AF005DE248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E44CC16E171A00AF005DE248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44CC16D171A00AF005DE248 /* Verrouiller.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E44CC16F171A00AF005DE248 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E44CC170171A00AF005DE248 /* Automator.framework */,
+				E44CC172171A00AF005DE248 /* Cocoa.framework */,
+				E44CC174171A00AF005DE248 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44CC174171A00AF005DE248 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E44CC175171A00AF005DE248 /* AppKit.framework */,
+				E44CC176171A00AF005DE248 /* CoreData.framework */,
+				E44CC177171A00AF005DE248 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E44CC178171A00AF005DE248 /* Verrouiller */ = {
+			isa = PBXGroup;
+			children = (
+				E44CC17E171A00AF005DE248 /* main.command */,
+				E44CC180171A00AF005DE248 /* main.xib */,
+				E44CC179171A00AF005DE248 /* Supporting Files */,
+			);
+			path = Verrouiller;
+			sourceTree = "<group>";
+		};
+		E44CC179171A00AF005DE248 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E44CC17A171A00AF005DE248 /* Verrouiller-Info.plist */,
+				E44CC17B171A00AF005DE248 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E44CC16C171A00AF005DE248 /* Verrouiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44CC185171A00AF005DE248 /* Build configuration list for PBXNativeTarget "Verrouiller" */;
+			buildPhases = (
+				E44CC168171A00AF005DE248 /* Sources */,
+				E44CC169171A00AF005DE248 /* Frameworks */,
+				E44CC16A171A00AF005DE248 /* Resources */,
+				E44CC16B171A00AF005DE248 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verrouiller;
+			productName = Verrouiller;
+			productReference = E44CC16D171A00AF005DE248 /* Verrouiller.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44CC164171A00AF005DE248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Automatisez sous Mac";
+			};
+			buildConfigurationList = E44CC167171A00AF005DE248 /* Build configuration list for PBXProject "Verrouiller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E44CC163171A00AF005DE248;
+			productRefGroup = E44CC16E171A00AF005DE248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44CC16C171A00AF005DE248 /* Verrouiller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44CC16A171A00AF005DE248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44CC17D171A00AF005DE248 /* InfoPlist.strings in Resources */,
+				E44CC17F171A00AF005DE248 /* main.command in Resources */,
+				E44CC182171A00AF005DE248 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E44CC16B171A00AF005DE248 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44CC168171A00AF005DE248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E44CC17B171A00AF005DE248 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44CC17C171A00AF005DE248 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E44CC180171A00AF005DE248 /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44CC181171A00AF005DE248 /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E44CC183171A00AF005DE248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E44CC184171A00AF005DE248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E44CC186171A00AF005DE248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Verrouiller/Verrouiller-Prefix.pch";
+				INFOPLIST_FILE = "Verrouiller/Verrouiller-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		E44CC187171A00AF005DE248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Verrouiller/Verrouiller-Prefix.pch";
+				INFOPLIST_FILE = "Verrouiller/Verrouiller-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44CC167171A00AF005DE248 /* Build configuration list for PBXProject "Verrouiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44CC183171A00AF005DE248 /* Debug */,
+				E44CC184171A00AF005DE248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44CC185171A00AF005DE248 /* Build configuration list for PBXNativeTarget "Verrouiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44CC186171A00AF005DE248 /* Debug */,
+				E44CC187171A00AF005DE248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44CC164171A00AF005DE248 /* Project object */;
+}
