@@ -13,8 +13,6 @@
 			<string>com.apple.cocoa.string</string>
 		</array>
 	</dict>
-	<key>AMApplication</key>
-	<string>(* Primary Application used by this action goes here. *)</string>
 	<key>AMCanShowSelectedItemsWhenRun</key>
 	<false/>
 	<key>AMCanShowWhenRun</key>
@@ -22,23 +20,26 @@
 	<key>AMCategory</key>
 	<string>AMCategoryFilesAndFolders</string>
 	<key>AMDefaultParameters</key>
-	<dict/>
+	<dict>
+		<key>actif</key>
+		<false/>
+	</dict>
 	<key>AMDescription</key>
 	<dict>
 		<key>AMDAlert</key>
-		<string>(* AMDAlert text goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDInput</key>
-		<string>(* AMDInput text to further explain the types accepted as input goes here. (optional) *)</string>
+		<string>Cette action permet de verrouiller ou déverrouiler les fichiers et dossiers transmis en entrée.</string>
 		<key>AMDNote</key>
 		<string>Utilise la commande chflags</string>
 		<key>AMDOptions</key>
-		<string>(* AMDOptions text to further explain configuration options in the UI goes here. (optional) *)</string>
+		<string>Indique le comportement attendu de l'action</string>
 		<key>AMDRelatedActions</key>
-		<string>(* AMDRelatedActions bundle ids go here. (optional) *)</string>
+		<string></string>
 		<key>AMDRequires</key>
 		<string>(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)</string>
 		<key>AMDResult</key>
-		<string>(* AMDResult text to further explain the types provided as output goes here. (optional) *)</string>
+		<string>La liste des fichiers et dossiers reçus en entrée est renvoyée à l'identique.</string>
 		<key>AMDSummary</key>
 		<string>Cette action verrouille ou déverrouile les fichiers qu'on lui transmet.</string>
 		<key>AMDWebsite</key>
@@ -47,7 +48,10 @@
 	<key>AMIconName</key>
 	<string>(* The name of the icon *)</string>
 	<key>AMKeywords</key>
-	<array/>
+	<array>
+		<string>verrouiller</string>
+		<string>déverrouiller</string>
+	</array>
 	<key>AMName</key>
 	<string>Verrouiller</string>
 	<key>AMProvides</key>
