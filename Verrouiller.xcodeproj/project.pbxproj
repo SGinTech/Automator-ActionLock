@@ -21,10 +21,12 @@
 		E44CC175171A00AF005DE248 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E44CC176171A00AF005DE248 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E44CC177171A00AF005DE248 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E44CC17A171A00AF005DE248 /* Verrouiller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Verrouiller-Info.plist"; sourceTree = "<group>"; };
 		E44CC17C171A00AF005DE248 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E44CC17E171A00AF005DE248 /* main.command */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.command; sourceTree = "<group>"; };
 		E44CC181171A00AF005DE248 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		E4FD5199173844DD00FF3D81 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/main.xib; sourceTree = "<group>"; };
+		E4FD519A173844DD00FF3D81 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4FD519F17384C2000FF3D81 /* Verrouiller-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Verrouiller-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,7 @@
 		E44CC179171A00AF005DE248 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E44CC17A171A00AF005DE248 /* Verrouiller-Info.plist */,
+				E4FD519F17384C2000FF3D81 /* Verrouiller-Info.plist */,
 				E44CC17B171A00AF005DE248 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -124,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Automatisez sous Mac";
+				ORGANIZATIONNAME = automatisez.net;
 			};
 			buildConfigurationList = E44CC167171A00AF005DE248 /* Build configuration list for PBXProject "Verrouiller" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -132,6 +134,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = E44CC163171A00AF005DE248;
 			productRefGroup = E44CC16E171A00AF005DE248 /* Products */;
@@ -187,6 +190,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E44CC17C171A00AF005DE248 /* en */,
+				E4FD519A173844DD00FF3D81 /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -195,6 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E44CC181171A00AF005DE248 /* en */,
+				E4FD5199173844DD00FF3D81 /* fr */,
 			);
 			name = main.xib;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				E44CC187171A00AF005DE248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
