@@ -8,7 +8,7 @@
 
 
 # Active le mode 'trace' de Bash pour suivre le déroulement
-set -xv
+#set -xv
 
 # Utilise la console pour les messages d'erreurs
 exec 2>>/dev/console
@@ -17,21 +17,22 @@ exec 2>>/dev/console
 #   Permet de vérifier les liaisons
 #
 #   'actif' est une variable définie dans les options de l'action
-printenv 1>&2
+#printenv 1>&2
+
+# Par défaut, déverrouille le fichier
+flag="nouchange"
+
+# 0 pour faux, 1 pour vrai
+if test "1" == "$actif"
+then
+    # Verrouillage du fichier si option à vrai
+    flag="uchange"
+fi
+
 
 # On lit chaque ligne en entrée, chaque ligne est un chemin de fichier/dossier
 while read leFichier
 do
-    # Par défaut, déverrouille le fichier
-    flag="nouchange"
-
-    # 0 pour faux, 1 pour vrai
-    if test "1" == "$actif"
-    then
-        # Verrouillage du fichier si option à vrai
-        flag="uchange"
-    fi
-
     # Si le chemin correspond à un fichier ou dossier
     if test -a "$leFichier"
     then

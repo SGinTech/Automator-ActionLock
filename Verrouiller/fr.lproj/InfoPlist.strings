@@ -6,7 +6,7 @@
 /*  AMCategory localized strings  */
 /* e.g. "Terminal" = "Terminal"; */
 
-AMName = "Lock";
+AMName = "Verrouiller";
 
 /* AMDefaultParameters localized values */
 /* e.g. myDefaultIntegerParameter = 0; */
@@ -14,12 +14,12 @@ AMName = "Lock";
 
 /* AMDescription localized strings */
 AMDAlert = "";
-AMDInput = "This action will lock or unlock incoming files and folders.";
-AMDNote = "Uses chflags shell command";
-AMDOptions = "Specify the action expected behavior.";
-AMDResult = "Updated file and folder paths";
+AMDInput = "Cette action permet de verrouiller ou déverrouiler les fichiers et dossiers transmis en entrée.";
+AMDNote = "Utilise la commande chflags";
+AMDOptions = "Indique le comportement attendu de l&apos;action";
+AMDResult = "La liste des fichiers et dossiers dont l&apos;état a été modifié par l&apos;action.";
 AMDRequires = "";
-AMDSummary = "This action will lock or unlock the provided files and folders.";
+AMDSummary = "Cette action verrouille ou déverrouile les fichiers qu&apos;on lui transmet.";
 AMDWebsite = "http://automatisez.net/";
 
 /* AMKeyword localized strings */

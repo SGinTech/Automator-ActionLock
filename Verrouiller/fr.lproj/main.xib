@@ -46,7 +46,7 @@
 						<object class="NSButtonCell" key="NSCell" id="906173018">
 							<int key="NSCellFlags">-2080374784</int>
 							<int key="NSCellFlags2">268566528</int>
-							<string key="NSContents">Lock the files and folders</string>
+							<string key="NSContents">Verrouiller les fichiers et dossiers.</string>
 							<object class="NSFont" key="NSSupport">
 								<string key="NSName">LucidaGrande</string>
 								<double key="NSSize">11</double>

@@ -29,31 +29,31 @@
 		<key>AMDAlert</key>
 		<string></string>
 		<key>AMDInput</key>
-		<string>Cette action permet de verrouiller ou déverrouiler les fichiers et dossiers transmis en entrée.</string>
+		<string>This action is used to lock or unlock incoming files and folder.</string>
 		<key>AMDNote</key>
-		<string>Utilise la commande chflags</string>
+		<string>Uses the chflags shell command.</string>
 		<key>AMDOptions</key>
-		<string>Indique le comportement attendu de l'action</string>
+		<string>Indicate which action must be performed.</string>
 		<key>AMDRelatedActions</key>
 		<string></string>
 		<key>AMDRequires</key>
-		<string>(* AMDRequires text to explain anything outside of Automator required for the action's operation, e.g. a web page open in Safari, goes here. (optional) *)</string>
+		<string></string>
 		<key>AMDResult</key>
-		<string>La liste des fichiers et dossiers reçus en entrée est renvoyée à l'identique.</string>
+		<string>Files and folder that were modified by this action.</string>
 		<key>AMDSummary</key>
-		<string>Cette action verrouille ou déverrouile les fichiers qu'on lui transmet.</string>
+		<string>This action will lock or unlock incoming files.</string>
 		<key>AMDWebsite</key>
-		<string>(* AMDWebsite URL to additional information or documentation for the action goes here. (optional) *)</string>
+		<string>http://automatisez.net/</string>
 	</dict>
 	<key>AMIconName</key>
 	<string>(* The name of the icon *)</string>
 	<key>AMKeywords</key>
 	<array>
-		<string>verrouiller</string>
-		<string>déverrouiller</string>
+		<string>lock</string>
+		<string>unlock</string>
 	</array>
 	<key>AMName</key>
-	<string>Verrouiller</string>
+	<string>Lock</string>
 	<key>AMProvides</key>
 	<dict>
 		<key>Container</key>
@@ -83,7 +83,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>tel.Gamel.automator.app.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>net.automatisez.app.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -97,7 +97,7 @@
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2013 Automatisez sous Mac. All rights reserved.</string>
+	<string>Copyright © 2013 Sylvain Gamel, Automatisez.net. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>AMShellScriptAction</string>
 </dict>
