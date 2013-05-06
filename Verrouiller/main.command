@@ -38,6 +38,7 @@ do
     then
         # Applique la commande avec l'option correspondant à l'option
         chflags $flag "$leFichier"
+        echo "$leFichier"
     else
         # Ou on affiche une erreur si le chemin ne correspond à rien
         echo "Alerte: le fichier \"$leFichier\" n'existe pas." 1>&2 
